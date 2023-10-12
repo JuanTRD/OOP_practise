@@ -11,4 +11,7 @@ class Circle2 {
     getArea() {
         return Math.PI*this.getRadius()**2;
     }
+    setRadius(newRadius) {
+        this.radius = newRadius;
+    }
 }

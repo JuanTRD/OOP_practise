@@ -9,4 +9,6 @@ class Rectangle3 {
     getLength() { return this.length; }
     getArea() { return this.getWidth()*this.getLength(); }
     getPerimeter() { return (this.getWidth()+this.getLength())*2}
+    setWidth(newWidth) { this.width = newWidth;}
+    setLength(newLength) { this.length = newLength}
 }
